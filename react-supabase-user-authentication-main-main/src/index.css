@@ -1,0 +1,97 @@
+/*LOGIN PAGE CSS*/
+.login-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.login-logo {
+  display: block;
+  margin: 0 auto;
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Preserve the aspect ratio */
+  margin-bottom: 20px;
+ 
+}
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-container h1 {
+  text-align: center;
+}
+.login-input {
+  margin-bottom: 10px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.login-submit-button {
+  padding: 8px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.login-submit-button:hover {
+  background-color: #45a049;
+}
+
+.login-link {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.login-link a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.login-link a:hover {
+  text-decoration: underline;
+}
+
+/*SIGNUP PAGE CSS*/
+.signup-container {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.signup-container h1 {
+  text-align: center;
+}
+
+.signup-container form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.signup-container input {
+  margin-bottom: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.signup-container button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.signup-container button:hover {
+  background-color:  #45a049;
+}
+
+.signup-container .login-link {
+  text-align: center;
+  margin-top: 10px;
+}
